@@ -1,0 +1,10 @@
+interface:
+  display_name: "Research the evidence before scoring"
+  short_description: "Find and record sourced evidence before scoring"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ailawframework"
+      description: "AI Law Framework MCP server"
+      transport: "streamable_http"
+      url: "https://ailawframework.com/mcp"

@@ -1,0 +1,10 @@
+interface:
+  display_name: "Define the task: the clarifying questions"
+  short_description: "Ask the framework’s questions before any work starts"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ailawframework"
+      description: "AI Law Framework MCP server"
+      transport: "streamable_http"
+      url: "https://ailawframework.com/mcp"

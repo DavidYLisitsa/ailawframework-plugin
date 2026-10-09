@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ailawframework": {
+      "type": "http",
+      "url": "https://ailawframework.com/mcp"
+    }
+  }
+}

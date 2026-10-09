@@ -1,0 +1,10 @@
+interface:
+  display_name: "Apply the AI Law Framework to a legal task"
+  short_description: "Work a legal task through the framework’s five steps"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ailawframework"
+      description: "AI Law Framework MCP server"
+      transport: "streamable_http"
+      url: "https://ailawframework.com/mcp"

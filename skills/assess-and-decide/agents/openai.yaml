@@ -1,0 +1,10 @@
+interface:
+  display_name: "Assess and decide on the three pillars"
+  short_description: "Score the AI option on three pillars and decide"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ailawframework"
+      description: "AI Law Framework MCP server"
+      transport: "streamable_http"
+      url: "https://ailawframework.com/mcp"

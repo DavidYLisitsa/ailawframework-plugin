@@ -1,0 +1,16 @@
+{
+  "name": "ailawframework",
+  "owner": {
+    "name": "AI Law Framework",
+    "url": "https://ailawframework.com"
+  },
+  "description": "The AI Law Framework plugin for Claude Code and Claude.",
+  "plugins": [
+    {
+      "name": "ailawframework",
+      "source": ".",
+      "description": "Applies the AI Law Framework to legal work done with AI: the agent asks the clarifying questions before it assumes, researches the rules and the law with sources, decides whether AI may be used for the task at all, keeps to what the plan allows at each stage, and hands the lawyer a work record.",
+      "category": "legal"
+    }
+  ]
+}

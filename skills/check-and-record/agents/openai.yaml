@@ -1,0 +1,10 @@
+interface:
+  display_name: "Hand over for checks, approval and release"
+  short_description: "Hand the lawyer the work record to check and approve"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ailawframework"
+      description: "AI Law Framework MCP server"
+      transport: "streamable_http"
+      url: "https://ailawframework.com/mcp"
