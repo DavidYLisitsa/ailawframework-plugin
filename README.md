@@ -36,6 +36,22 @@ mkdir -p ~/.agents/skills && cp -R ailawframework-plugin/skills/* ~/.agents/skil
 codex mcp add ailawframework --url https://ailawframework.com/mcp
 ```
 
+## Your firm's knowledge (signed in)
+
+The plugin's server is the public framework. A firm with an account on https://ailawframework.com can also
+connect its own material: its approved AI policies, its knowledge base (precedents, templates,
+clauses, know-how) and the full text of the precedent library, read as the person who connected,
+with every read in the firm's access log. Add the signed-in connector, `https://ailawframework.com/mcp/firm`; your
+app sends you to the site to log in and approve it once.
+
+- **Claude:** [add the firm connector](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=AI+Law+Framework%3A+my+firm&connectorUrl=https%3A%2F%2Failawframework.com%2Fmcp%2Ffirm), then select **Connect**.
+- **Claude Code:** `claude mcp add --transport http ailawframework-firm https://ailawframework.com/mcp/firm`, then run `/mcp` and choose it to sign in.
+- **Codex:** `codex mcp add ailawframework-firm --url https://ailawframework.com/mcp/firm` then `codex mcp login ailawframework-firm`.
+
+The firm connector keeps which app was approved and when, its keys in a one-way hashed form, and an
+access log (which app read which item, and when; never your questions or any text). Details:
+https://ailawframework.com/connect#firm.
+
 ## What it runs and sends
 
 Nothing runs on your computer. The plugin contains instructions (the skills) and the address of one
