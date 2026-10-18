@@ -8,6 +8,7 @@ description: "Use at the start of any legal task under the AI Law Framework, or 
 Step 1 of the AI Law Framework describes the task closely enough that two people would assess it the same way. The answers come from the user, never from you.
 
 - Call `start_task` with the request as the user gave it. Pre-fill an answer only when the user has already said it, and quote their words (`from: "request"`, `quote: "..."`).
+- Ask **where** first: the country, then (in Australia) the state or territory, or Commonwealth only. A place the user only implied ("my Sydney client", a court name) is not an answer: confirm it.
 - Ask every remaining question in **one** message: number them, keep the framework's wording, and list the options for each choice question so the user can reply with a few words. If your client can show a form or a question picker (for example AskUserQuestion), use it.
 - Accept "Not sure". It is an answer, and it raises the level of human involvement by one step.
 - Do not answer for the user, even when an answer seems obvious, and do not start the work while questions are open. If the user will not answer, say that the framework cannot be applied without the answers and stop.

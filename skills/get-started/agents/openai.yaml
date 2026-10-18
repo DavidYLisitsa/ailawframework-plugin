@@ -1,0 +1,10 @@
+interface:
+  display_name: "Get started with the AI Law Framework"
+  short_description: "Show a new user what the framework does and where to start"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ailawframework"
+      description: "AI Law Framework MCP server"
+      transport: "streamable_http"
+      url: "https://ailawframework.com/mcp"

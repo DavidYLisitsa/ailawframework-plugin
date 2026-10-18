@@ -11,7 +11,7 @@ the AI Law Framework.
 
 ## What is in it
 
-- **Six skills** in `skills/`: `ai-law-framework`, `define-the-task`, `research-the-evidence`, `assess-and-decide`, `plan-and-do-the-work`, `check-and-record`.
+- **Seven skills** in `skills/`: `ai-law-framework`, `get-started`, `define-the-task`, `research-the-evidence`, `assess-and-decide`, `plan-and-do-the-work`, `check-and-record`.
 - **The framework's MCP server**, declared in `.mcp.json`: `https://ailawframework.com/mcp`, a remote server with
   no sign-in. The skills call its tools; the tools enforce the order of the steps.
 
