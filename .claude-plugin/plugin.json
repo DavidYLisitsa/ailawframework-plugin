@@ -1,13 +1,14 @@
 {
   "name": "ailawframework",
   "displayName": "AI Law Framework",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Applies the AI Law Framework to legal work done with AI: the agent asks the clarifying questions before it assumes, researches the rules and the law with sources, decides whether AI may be used for the task at all, keeps to what the plan allows at each stage, and hands the lawyer a work record.",
   "author": {
     "name": "AI Law Framework",
     "url": "https://ailawframework.com"
   },
   "homepage": "https://ailawframework.com/connect",
+  "privacyPolicyUrl": "https://ailawframework.com/privacy",
   "repository": "https://github.com/DavidYLisitsa/ailawframework-plugin",
   "license": "CC-BY-4.0",
   "keywords": [
